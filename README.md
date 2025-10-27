@@ -50,13 +50,16 @@ sqlite3 farm.db
 ```
 sqlite3 farm.db < create_tables.sql
 sqlite3 farm.db < insert_data.sql
+```
 ### Проверить содержимое
+
 ```bash
 sqlite3 farm.db
 sqlite> .tables
 sqlite> SELECT * FROM farms;
 ```
 ### Структура базы данных
+
 Основные таблицы:
 
 farms — фермерские хозяйства
@@ -137,4 +140,4 @@ WHERE y.yield_amount > 3000;
 ### Автор проекта
 Рахматиллаева Хосият
 Ташкентский государственный аграрный университет
-Направление: IT в сельском хозяйстве 🌱
+Направление: IT в сельском хозяйстве 
