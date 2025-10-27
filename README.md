@@ -24,6 +24,7 @@ farm-management-db/
 **Linux (Ubuntu / Debian):**
 ```bash
 sudo apt install sqlite3
+```
 Arch Linux / Manjaro:
 ```
 sudo pacman -S sqlite
