@@ -1,9 +1,11 @@
-🌾 Farm Management Database
+## Farm Management Database
 
 Farm Management Database — это учебный проект, демонстрирующий работу с реляционной базой данных для управления информацией о фермах, сельскохозяйственных культурах, типах почв и урожайности.
 База данных реализована на SQLite и служит примером архитектуры для небольших аграрных систем учёта.
 
- Структура проекта
+---
+
+### Структура проекта
 ```
 farm-management-db/
 │
@@ -12,7 +14,7 @@ farm-management-db/
 ├── queries.sql            # Примеры SQL-запросов
 └── README.md              # Описание проекта
 ```
- Установка и запуск
+### Установка и запуск
 1. Установить SQLite
 
 Linux / macOS
@@ -24,13 +26,13 @@ Windows
 Скачать с официального сайта [SQLite](https://sqlite.org/download.html)
 .
 
-2. Создать базу данных
+### 2. Создать базу данных
 ```
 sqlite3 farm.db < create_tables.sql
 sqlite3 farm.db < insert_data.sql
 ```
 
-3. Проверить содержимое
+### 3. Проверить содержимое
 ```
 sqlite3 farm.db
 sqlite> .tables
